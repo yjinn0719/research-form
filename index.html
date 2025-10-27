@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1440, initial-scale=1.0" />
+  <title>캠페인 아이디어 제안 폼</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>캠페인 아이디어 제안</h1>
+    <p class="desc">신제품 홍보 캠페인 아이디어를 자유롭게 제안해주세요.</p>
+    <form>
+      <div class="form-group">
+        <label for="title">아이디어 제목</label>
+        <input type="text" id="title" name="title" required />
+      </div>
+      <div class="form-group">
+        <label for="summary">아이디어 요약</label>
+        <input type="text" id="summary" name="summary" required />
+      </div>
+      <div class="form-group">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="department">부서</label>
+        <input type="text" id="department" name="department" required />
+      </div>
+      <button type="submit" class="submit-btn">제출하기</button>
+    </form>
+  </div>
+</body>
+</html>
